@@ -83,10 +83,10 @@ String.100.0=STM8L152C6
 
 [Root.Config.0.Settings.3]
 String.2.0=Compiling $(InputFile)...
-String.3.0=cxstm8 +warn +modsl0 -customDebCompat -customOpt -no +split -customC-pp -customLst -l -dSTM8L152C6 -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.3.0=cxstm8 +warn +modsl0 -customDebCompat -customOpt -no +split -customC-pp -customLst -l -dSTM8L15X_MD -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
 String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
 String.5.0=$(IntermPath)$(InputName).ls
-String.6.0=2018,5,23,11,5,9
+String.6.0=2018,5,23,14,13,25
 
 [Root.Config.0.Settings.4]
 String.2.0=Assembling $(InputFile)...
@@ -105,8 +105,8 @@ String.2.0=Running Linker
 String.3.0=clnk $(ToolsetLibOpts) -o $(OutputPath)$(TargetSName).sm8 -fakeInteger -fakeOutFile$(ProjectSFile).elf -fakeRunConv -fakeStartupcrtsi0.sm8 -fakeAutoGen -fakeVectFilestm8_interrupt_vector.c -customMapFile -customMapFile-m$(OutputPath)$(TargetSName).map -customMapAddress -customCfgFile $(OutputPath)$(TargetSName).lkf 
 String.3.1=cvdwarf $(OutputPath)$(TargetSName).sm8 -fakeVectAddr0x8000
 String.4.0=$(OutputPath)$(TargetFName)
-String.5.0=$(OutputPath)$(ProjectSFile).elf $(OutputPath)$(TargetSName).map
-String.6.0=2018,5,23,10,9,59
+String.5.0=
+String.6.0=2018,5,23,14,13,25
 String.100.0=
 String.101.0=crtsi.st7
 String.102.0=+seg .const -b 0x8080 -m 0x7f80 -n .const -it 
@@ -247,10 +247,10 @@ Int.1=0
 
 [Root.Kernel.Config.0.Settings.1]
 String.2.0=Compiling $(InputFile)...
-String.3.0=cxstm8 +warn +modsl0 -customDebCompat -customOpt -no +split -customC-pp -customLst -l -dSTM8L152C6 -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.3.0=cxstm8 +warn +modsl0 -customDebCompat -customOpt -no +split -customC-pp -customLst -l -dSTM8L15X_MD -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
 String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
 String.5.0=$(IntermPath)$(InputName).ls
-String.6.0=2018,5,23,11,5,9
+String.6.0=2018,5,23,14,13,25
 
 [Root.Kernel.Config.0.Settings.2]
 String.2.0=Assembling $(InputFile)...
@@ -364,10 +364,10 @@ Int.1=0
 
 [Root.Peripherals.Config.0.Settings.1]
 String.2.0=Compiling $(InputFile)...
-String.3.0=cxstm8 +warn +modsl0 -customDebCompat -customOpt -no +split -customC-pp -customLst -l -dSTM8L152C6 -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.3.0=cxstm8 +warn +modsl0 -customDebCompat -customOpt -no +split -customC-pp -customLst -l -dSTM8L15X_MD -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
 String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
 String.5.0=$(IntermPath)$(InputName).ls
-String.6.0=2018,5,23,11,5,9
+String.6.0=2018,5,23,14,13,25
 
 [Root.Peripherals.Config.0.Settings.2]
 String.2.0=Assembling $(InputFile)...
@@ -491,10 +491,10 @@ Int.1=0
 
 [Root.Port.Config.0.Settings.1]
 String.2.0=Compiling $(InputFile)...
-String.3.0=cxstm8 +warn +modsl0 -customDebCompat -customOpt -no +split -customC-pp -customLst -l -dSTM8L152C6 -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.3.0=cxstm8 +warn +modsl0 -customDebCompat -customOpt -no +split -customC-pp -customLst -l -dSTM8L15X_MD -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
 String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
 String.5.0=$(IntermPath)$(InputName).ls
-String.6.0=2018,5,23,11,5,9
+String.6.0=2018,5,23,14,13,25
 
 [Root.Port.Config.0.Settings.2]
 String.2.0=Assembling $(InputFile)...
