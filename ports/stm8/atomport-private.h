@@ -61,7 +61,11 @@
  * example).
  */
 #if defined(__CSMC__)
-#define INTERRUPT @far @interrupt @svlreg
+/*
+ * INTERRUPT is already defined in stm8l15x.h but without @svlreg
+ */
+  #undef INTERRUPT
+  #define INTERRUPT @far @interrupt @svlreg
 #elif defined (__IAR_SYSTEMS_ICC__)
 #define INTERRUPT __interrupt
 #elif defined(__RCSTM8__) || defined(__SDCC_stm8)
@@ -74,7 +78,7 @@ void archInitSystemTickTimer (void);
 #ifndef __SDCC_stm8
 INTERRUPT void TIM1_SystemTickISR (void);
 #else
-void TIM1_SystemTickISR (void) __interrupt(11);
+void TIM1_SystemTickISR (void) __interrupt(23);
 #endif
 
 #endif /* __ATOM_PORT_PRIVATE_H */
