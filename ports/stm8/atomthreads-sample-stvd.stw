@@ -10,3 +10,7 @@ Dependencies=
 [Project1]
 Filename=atomthreads-sample-raisonance.stp
 Dependencies=
+[Options]
+ActiveProject=atomthreads-cosmic
+ActiveConfig=Debug
+AddSortedElements=0

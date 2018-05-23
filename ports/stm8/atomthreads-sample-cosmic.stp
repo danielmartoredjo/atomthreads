@@ -74,7 +74,7 @@ String.6.0=2010,2,9,1,12,48
 String.100.0=$(TargetFName)
 String.101.0=
 String.102.0=
-String.103.0=.\;..\..\kernel;stm8s-periphs;..\..\tests;
+String.103.0=.\;..\..\kernel;..\..\tests;stm8l15x_stdperiph_driver;
 
 [Root.Config.0.Settings.2]
 String.2.0=
@@ -83,7 +83,7 @@ String.100.0=STM8L152C6
 
 [Root.Config.0.Settings.3]
 String.2.0=Compiling $(InputFile)...
-String.3.0=cxstm8 +warn +modsl0 -customDebCompat -customOpt -no +split -customC-pp -customLst -l -dSTM8L15X_MD -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.3.0=cxstm8 -istm8l15x_stdperiph_driver  +warn +modsl0 -customDebCompat -customOpt -no +split -customC-pp -customLst -l -dSTM8L15X_MD -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
 String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
 String.5.0=$(IntermPath)$(InputName).ls
 String.6.0=2018,5,23,14,13,25
@@ -157,7 +157,7 @@ String.6.0=2010,2,9,1,12,48
 String.100.0=$(TargetFName)
 String.101.0=
 String.102.0=
-String.103.0=.\;..\..\kernel;stm8s-periphs;..\..\tests;
+String.103.0=.\;..\..\kernel;..\..\tests;stm8l15x_stdperiph_driver;
 
 [Root.Config.1.Settings.2]
 String.2.0=
@@ -166,7 +166,7 @@ String.100.0=STM8L152C6
 
 [Root.Config.1.Settings.3]
 String.2.0=Compiling $(InputFile)...
-String.3.0=cxstm8 +modsl0 -customOpt +split -customC-pp -dSTM8S105 -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.3.0=cxstm8 -istm8l15x_stdperiph_driver  +modsl0 -customOpt +split -customC-pp -dSTM8S105 -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
 String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
 String.5.0=$(IntermPath)$(InputName).ls
 String.6.0=2010,5,27,22,48,49
@@ -247,7 +247,7 @@ Int.1=0
 
 [Root.Kernel.Config.0.Settings.1]
 String.2.0=Compiling $(InputFile)...
-String.3.0=cxstm8 +warn +modsl0 -customDebCompat -customOpt -no +split -customC-pp -customLst -l -dSTM8L15X_MD -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.3.0=cxstm8 -istm8l15x_stdperiph_driver  +warn +modsl0 -customDebCompat -customOpt -no +split -customC-pp -customLst -l -dSTM8L15X_MD -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
 String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
 String.5.0=$(IntermPath)$(InputName).ls
 String.6.0=2018,5,23,14,13,25
@@ -271,7 +271,7 @@ Int.1=0
 
 [Root.Kernel.Config.1.Settings.1]
 String.2.0=Compiling $(InputFile)...
-String.3.0=cxstm8 +modsl0 -customOpt +split -customC-pp -dSTM8S105 -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.3.0=cxstm8 -istm8l15x_stdperiph_driver  +modsl0 -customOpt +split -customC-pp -dSTM8S105 -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
 String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
 String.5.0=$(IntermPath)$(InputName).ls
 String.6.0=2010,5,27,22,48,49
@@ -339,7 +339,7 @@ PathName=..\..\kernel\atomtimer.h
 [Root.Peripherals]
 ElemType=Folder
 PathName=Peripherals
-Child=Root.Peripherals.stm8s-periphs\stm8s_clk.c
+Child=Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x.h
 Next=Root.Port
 Config.0=Root.Peripherals.Config.0
 Config.1=Root.Peripherals.Config.1
@@ -364,7 +364,7 @@ Int.1=0
 
 [Root.Peripherals.Config.0.Settings.1]
 String.2.0=Compiling $(InputFile)...
-String.3.0=cxstm8 +warn +modsl0 -customDebCompat -customOpt -no +split -customC-pp -customLst -l -dSTM8L15X_MD -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.3.0=cxstm8 -istm8l15x_stdperiph_driver  +warn +modsl0 -customDebCompat -customOpt -no +split -customC-pp -customLst -l -dSTM8L15X_MD -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
 String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
 String.5.0=$(IntermPath)$(InputName).ls
 String.6.0=2018,5,23,14,13,25
@@ -391,7 +391,7 @@ Int.1=0
 
 [Root.Peripherals.Config.1.Settings.1]
 String.2.0=Compiling $(InputFile)...
-String.3.0=cxstm8 +modsl0 -customOpt +split -customC-pp -dSTM8S105 -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.3.0=cxstm8 -istm8l15x_stdperiph_driver  +modsl0 -customOpt +split -customC-pp -dSTM8S105 -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
 String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
 String.5.0=$(IntermPath)$(InputName).ls
 String.6.0=2010,5,27,22,48,49
@@ -410,59 +410,69 @@ String.4.0=
 String.5.0=
 String.6.0=2010,2,9,1,12,48
 
-[Root.Peripherals.stm8s-periphs\stm8s_clk.c]
+[Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x.h]
 ElemType=File
-PathName=stm8s-periphs\stm8s_clk.c
-Next=Root.Peripherals.stm8s-periphs\stm8s_uart2.h
+PathName=stm8l15x_stdperiph_driver\stm8l15x.h
+Next=Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_usart.h
 
-[Root.Peripherals.stm8s-periphs\stm8s_uart2.h]
+[Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_usart.h]
 ElemType=File
-PathName=stm8s-periphs\stm8s_uart2.h
-Next=Root.Peripherals.stm8s-periphs\stm8s_uart2.c
+PathName=stm8l15x_stdperiph_driver\stm8l15x_usart.h
+Next=Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_usart.c
 
-[Root.Peripherals.stm8s-periphs\stm8s_uart2.c]
+[Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_usart.c]
 ElemType=File
-PathName=stm8s-periphs\stm8s_uart2.c
-Next=Root.Peripherals.stm8s-periphs\stm8s_gpio.c
+PathName=stm8l15x_stdperiph_driver\stm8l15x_usart.c
+Next=Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_tim1.h
 
-[Root.Peripherals.stm8s-periphs\stm8s_gpio.c]
+[Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_tim1.h]
 ElemType=File
-PathName=stm8s-periphs\stm8s_gpio.c
-Next=Root.Peripherals.stm8s-periphs\stm8s_tim1.h
+PathName=stm8l15x_stdperiph_driver\stm8l15x_tim1.h
+Next=Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_tim1.c
 
-[Root.Peripherals.stm8s-periphs\stm8s_tim1.h]
+[Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_tim1.c]
 ElemType=File
-PathName=stm8s-periphs\stm8s_tim1.h
-Next=Root.Peripherals.stm8s-periphs\stm8s_tim1.c
+PathName=stm8l15x_stdperiph_driver\stm8l15x_tim1.c
+Next=Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_syscfg.h
 
-[Root.Peripherals.stm8s-periphs\stm8s_tim1.c]
+[Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_syscfg.h]
 ElemType=File
-PathName=stm8s-periphs\stm8s_tim1.c
-Next=Root.Peripherals.stm8s-periphs\stm8s_itc.h
+PathName=stm8l15x_stdperiph_driver\stm8l15x_syscfg.h
+Next=Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_syscfg.c
 
-[Root.Peripherals.stm8s-periphs\stm8s_itc.h]
+[Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_syscfg.c]
 ElemType=File
-PathName=stm8s-periphs\stm8s_itc.h
-Next=Root.Peripherals.stm8s-periphs\stm8s_gpio.h
+PathName=stm8l15x_stdperiph_driver\stm8l15x_syscfg.c
+Next=Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_itc.h
 
-[Root.Peripherals.stm8s-periphs\stm8s_gpio.h]
+[Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_itc.h]
 ElemType=File
-PathName=stm8s-periphs\stm8s_gpio.h
-Next=Root.Peripherals.stm8s-periphs\stm8s_clk.h
+PathName=stm8l15x_stdperiph_driver\stm8l15x_itc.h
+Next=Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_itc.c
 
-[Root.Peripherals.stm8s-periphs\stm8s_clk.h]
+[Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_itc.c]
 ElemType=File
-PathName=stm8s-periphs\stm8s_clk.h
-Next=Root.Peripherals.stm8s-periphs\stm8s.h
+PathName=stm8l15x_stdperiph_driver\stm8l15x_itc.c
+Next=Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_gpio.h
 
-[Root.Peripherals.stm8s-periphs\stm8s.h]
+[Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_gpio.h]
 ElemType=File
-PathName=stm8s-periphs\stm8s.h
-Next=Root.Peripherals.stm8s-periphs\stm8s_type.h
+PathName=stm8l15x_stdperiph_driver\stm8l15x_gpio.h
+Next=Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_gpio.c
 
-[Root.Peripherals.stm8s-periphs\stm8s_type.h]
+[Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_gpio.c]
 ElemType=File
-PathName=stm8s-periphs\stm8s_type.h
+PathName=stm8l15x_stdperiph_driver\stm8l15x_gpio.c
+Next=Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_clk.h
+
+[Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_clk.h]
+ElemType=File
+PathName=stm8l15x_stdperiph_driver\stm8l15x_clk.h
+Next=Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_clk.c
+
+[Root.Peripherals.stm8l15x_stdperiph_driver\stm8l15x_clk.c]
+ElemType=File
+PathName=stm8l15x_stdperiph_driver\stm8l15x_clk.c
 
 [Root.Port]
 ElemType=Folder
@@ -491,7 +501,7 @@ Int.1=0
 
 [Root.Port.Config.0.Settings.1]
 String.2.0=Compiling $(InputFile)...
-String.3.0=cxstm8 +warn +modsl0 -customDebCompat -customOpt -no +split -customC-pp -customLst -l -dSTM8L15X_MD -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.3.0=cxstm8 -istm8l15x_stdperiph_driver  +warn +modsl0 -customDebCompat -customOpt -no +split -customC-pp -customLst -l -dSTM8L15X_MD -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
 String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
 String.5.0=$(IntermPath)$(InputName).ls
 String.6.0=2018,5,23,14,13,25
@@ -518,7 +528,7 @@ Int.1=0
 
 [Root.Port.Config.1.Settings.1]
 String.2.0=Compiling $(InputFile)...
-String.3.0=cxstm8 +modsl0 -customOpt +split -customC-pp -dSTM8S105 -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.3.0=cxstm8 -istm8l15x_stdperiph_driver  +modsl0 -customOpt +split -customC-pp -dSTM8S105 -dATOM_STACK_CHECKING -istm8s-periphs -i../../kernel -i../../tests $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
 String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
 String.5.0=$(IntermPath)$(InputName).ls
 String.6.0=2010,5,27,22,48,49
@@ -570,11 +580,6 @@ Next=Root.Port.atomport.h
 [Root.Port.atomport.h]
 ElemType=File
 PathName=atomport.h
-Next=Root.Port.stm8s_conf.h
-
-[Root.Port.stm8s_conf.h]
-ElemType=File
-PathName=stm8s_conf.h
 Next=Root.Port.atomport.c
 
 [Root.Port.atomport.c]
