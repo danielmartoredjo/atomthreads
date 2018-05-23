@@ -30,7 +30,7 @@
 
 #include "atom.h"
 #include "atomport-private.h"
-#include "stm8s_tim1.h"
+#include "stm8l15x_tim1.h"
 #if defined(__RCSTM8__)
 #include <intrins.h>
 #endif
@@ -238,14 +238,17 @@ void archThreadContextInit (ATOM_TCB *tcb_ptr, void *stack_top, void (*entry_poi
  */
 void archInitSystemTickTimer ( void )
 {
+    /* Enable Timer 1's clock*/
+    CLK_PeripheralClockConfig(CLK_Peripheral_TIM1, ENABLE);
+
     /* Reset TIM1 */
     TIM1_DeInit();
 
     /* Configure a 10ms tick */
-    TIM1_TimeBaseInit(10000, TIM1_COUNTERMODE_UP, 1, 0);
+    TIM1_TimeBaseInit(10000, TIM1_CounterMode_Up, 1, 0);
 
     /* Generate an interrupt on timer count overflow */
-    TIM1_ITConfig(TIM1_IT_UPDATE, ENABLE);
+    TIM1_ITConfig(TIM1_IT_Update, ENABLE);
 
     /* Enable TIM1 */
     TIM1_Cmd(ENABLE);
@@ -294,10 +297,10 @@ void archInitSystemTickTimer ( void )
 #endif
 INTERRUPT void TIM1_SystemTickISR (void)
 #if defined(__RCSTM8__)
-interrupt 11
+interrupt 23
 
 #elif defined(__SDCC_stm8)
-__interrupt(11)
+__interrupt(23)
 #endif
 {
     /* Call the interrupt entry routine */
@@ -307,7 +310,7 @@ __interrupt(11)
     atomTimerTick();
 
     /* Ack the interrupt (Clear TIM1:SR1 register bit 0) */
-    TIM1->SR1 = (uint8_t)(~(uint8_t)TIM1_IT_UPDATE);
+    TIM1->SR1 = (uint8_t)(~(uint8_t)TIM1_IT_Update);
 
     /* Call the interrupt exit routine */
     atomIntExit(TRUE);
