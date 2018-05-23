@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "stm8s.h"
+#include "stm8l15x.h"
 
 #include "atom.h"
 #include "atommutex.h"
@@ -19,14 +19,17 @@ static ATOM_MUTEX uart_mutex;
 int uart_init(uint32_t baudrate)
 {
   int status;
-  
+  /* Enable USART1 CLK */
+  CLK_PeripheralClockConfig(CLK_Peripheral_USART1, ENABLE);
+
   /**
-   * Set up UART2 for putting out debug messages.
-   * This the UART used on STM8S Discovery, change if required.
+   * Set up USART1 for putting out debug messages.
+   * This the USART1 used on STM8L Discovery, change if required.
    */
-  UART2_DeInit();
-  UART2_Init (baudrate, UART2_WORDLENGTH_8D, UART2_STOPBITS_1, UART2_PARITY_NO,
-              UART2_SYNCMODE_CLOCK_DISABLE, UART2_MODE_TXRX_ENABLE);
+  USART_DeInit(USART1);
+  USART_Init(USART1, baudrate, USART_WordLength_8b, USART_StopBits_1, USART_Parity_No, 
+             (USART_Mode_Rx | USART_Mode_Tx) );
+  USART_Cmd(USART1, ENABLE);
 
   /* Create a mutex for single-threaded putchar() access */
   if (atomMutexCreate (&uart_mutex) != ATOM_OK)
@@ -61,11 +64,11 @@ char uart_putchar (char c)
         if (c == '\n')
             putchar('\r');
 
-        /* Write a character to the UART2 */
-        UART2_SendData8(c);
+        /* Write a character to the USART1 */
+        USART_SendData8(USART1, c);
       
         /* Loop until the end of transmission */
-        while (UART2_GetFlagStatus(UART2_FLAG_TXE) == RESET)
+        while (USART_GetFlagStatus(USART1, USART_FLAG_TXE) == RESET)
             ;
 
         /* Return mutex access */
