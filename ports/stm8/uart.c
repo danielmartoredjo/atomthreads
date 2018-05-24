@@ -27,8 +27,14 @@ int uart_init(uint32_t baudrate)
    * This the USART1 used on STM8L Discovery, change if required.
    */
   USART_DeInit(USART1);
+
+  /* configure USART1 TX GPIO on PC3 */
+  GPIO_Init(GPIOC, GPIO_Pin_3, GPIO_Mode_Out_PP_Low_Fast);
+  /* configure USART1 RX GPIO on PC2 */
+  GPIO_Init(GPIOC, GPIO_Pin_2, GPIO_Mode_In_FL_No_IT);
+
   USART_Init(USART1, baudrate, USART_WordLength_8b, USART_StopBits_1, USART_Parity_No, 
-             (USART_Mode_Rx | USART_Mode_Tx) );
+             (/*USART_Mode_Rx |*/ USART_Mode_Tx) );
   USART_Cmd(USART1, ENABLE);
 
   /* Create a mutex for single-threaded putchar() access */
