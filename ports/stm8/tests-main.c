@@ -139,6 +139,12 @@ NO_REG_SAVE void main ( void )
      * reschedule to take place.
      */
 
+    /* reset the sysclk setting to default */
+    CLK_DeInit();
+
+    /* setup the sysclk with no prescaler */
+    CLK_SYSCLKDivConfig(CLK_SYSCLKDiv_1);
+
     /* Initialise the OS before creating our threads */
     status = atomOSInit(&idle_thread_stack[0], IDLE_STACK_SIZE_BYTES, TRUE);
     if (status == ATOM_OK)
@@ -196,7 +202,13 @@ static void main_thread_func (uint32_t param)
     param = param;
 
     /* Initialise UART (9600bps) */
-    if (uart_init(9600) != 0)
+    /*
+     * Inserting 115200 causes a rounding error in ST's peripheral API increasing the package error %.
+     * They calculate the baudrate with F_SYSCLK / Baudrate = 138.888
+     * this is then rounded down to 138 (which is not very nice)
+     * To get the 139 use 115107 as baudrate
+     */
+    if (uart_init(115107) != 0)
     {
         /* Error initialising UART */
     }
