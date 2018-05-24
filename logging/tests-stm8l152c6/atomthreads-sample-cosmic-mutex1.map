@@ -1,0 +1,1208 @@
+
+Map of Debug\atomthreads-sample-cosmic.sm8 from link file Debug\atomthreads-sample-cosmic.lkf - Thu May 24 15:56:48 2018
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 0000829d length   541 segment .const
+start 000082b2 end 00009dc4 length  6930 segment .text
+start 00001000 end 00001000 length     0 segment .eeprom
+start 00000002 end 00000002 length     0 segment .bsct
+start 00000002 end 0000000c length    10 segment .ubsct
+start 0000000c end 0000000c length     0 segment .bit
+start 0000000c end 0000000c length     0 segment .share
+start 00000100 end 0000010d length    13 segment .data, initialized
+start 000082a5 end 000082b2 length    13 segment .data, from
+start 0000010d end 000004f9 length  1004 segment .bss
+start 00000000 end 00001046 length  4166 segment .info.
+start 00000000 end 0000e8ef length 59631 segment .debug
+start 00008000 end 00008080 length   128 segment .const
+start 0000829d end 000082a5 length     8 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8:
+start 000082b2 end 00008302 length    80 section .text
+start 0000010d end 0000010d length     0 section .bss
+start 00000002 end 00000002 length     0 section .ubsct
+start 00000000 end 00000034 length    52 section .info.
+
+Debug\atomkernel.o:
+start 00000100 end 00000107 length     7 section .data
+start 0000010d end 00000125 length    24 section .bss
+start 00000000 end 00000d48 length  3400 section .debug
+start 00000034 end 000000cf length   155 section .info.
+start 00008302 end 00008396 length   148 section .text
+start 00008396 end 000083b1 length    27 section .text
+start 000083b1 end 000084b3 length   258 section .text
+start 000084b3 end 0000852c length   121 section .text
+start 0000852c end 00008536 length    10 section .text
+start 00008536 end 00008543 length    13 section .text
+start 00008543 end 0000854e length    11 section .text
+start 0000854e end 00008585 length    55 section .text
+start 00008585 end 000085a5 length    32 section .text
+start 000085a5 end 000085a7 length     2 section .text
+start 000085a7 end 0000862b length   132 section .text
+start 0000862b end 00008674 length    73 section .text
+start 00008674 end 00008709 length   149 section .text
+start 00008709 end 00008758 length    79 section .text
+
+Debug\atommutex.o:
+start 00000d48 end 000014f4 length  1964 section .debug
+start 000000cf end 00000169 length   154 section .info.
+start 00008758 end 0000877b length    35 section .text
+start 0000877b end 00008812 length   151 section .text
+start 00008812 end 00008938 length   294 section .text
+start 00008938 end 000089fa length   194 section .text
+start 000089fa end 00008a39 length    63 section .text
+
+Debug\atomqueue.o:
+start 000014f4 end 00001fc1 length  2765 section .debug
+start 00000169 end 00000203 length   154 section .info.
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+
+Debug\atomsem.o:
+start 00001fc1 end 000027bc length  2043 section .debug
+start 00000203 end 0000029b length   152 section .info.
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+
+Debug\atomtimer.o:
+start 00000107 end 0000010d length     6 section .data
+start 000027bc end 00003031 length  2165 section .debug
+start 0000029b end 00000335 length   154 section .info.
+start 00008a39 end 00008a88 length    79 section .text
+start 00008a88 end 00008aec length   100 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 00008aec end 00008afe length    18 section .text
+start 00008afe end 00008b75 length   119 section .text
+start 00008b75 end 00008c12 length   157 section .text
+start 00008c12 end 00008c37 length    37 section .text
+
+Debug\stm8l15x_usart.o:
+start 00003031 end 000047d2 length  6049 section .debug
+start 00000335 end 000003d4 length   159 section .info.
+start 00008c37 end 00008c47 length    16 section .text
+start 00008c47 end 00008cba length   115 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start 00008cba end 00008cd1 length    23 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 00008cd1 end 00008cda length     9 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 00008cda end 00008d09 length    47 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+
+Debug\stm8l15x_tim1.o:
+start 000047d2 end 00009418 length 19526 section .debug
+start 000003d4 end 00000472 length   158 section .info.
+start 00008d09 end 00008da2 length   153 section .text
+start 00008da2 end 00008dc6 length    36 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 00008dc6 end 00008dd4 length    14 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 00008dd4 end 00008ded length    25 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+
+Debug\stm8l15x_syscfg.o:
+start 00009418 end 0000a84b length  5171 section .debug
+start 00000472 end 00000512 length   160 section .info.
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+
+Debug\stm8l15x_itc.o:
+start 0000a84b end 0000af2d length  1762 section .debug
+start 00000512 end 000005af length   157 section .info.
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .const *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+
+Debug\stm8l15x_gpio.o:
+start 0000af2d end 0000ba56 length  2857 section .debug
+start 000005af end 0000064d length   158 section .info.
+start 00008ded end 00008df5 length     8 section .text
+start 00008df5 end 00008e5d length   104 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 00008e5d end 00008e64 length     7 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+
+Debug\stm8l15x_clk.o:
+start 0000ba56 end 0000d415 length  6591 section .debug
+start 0000064d end 000006ea length   157 section .info.
+start 00008080 end 00008085 length     5 section .const
+start 00008e64 end 00008ea5 length    65 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 00008ea5 end 00008f2a length   133 section .text
+start 00008f2a end 00008f2e length     4 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 00008f2e end 00008fdb length   173 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+
+Debug\mutex1.o:
+start 00000125 end 000002dc length   439 section .bss
+start 0000d415 end 0000d991 length  1404 section .debug
+start 000006ea end 00000781 length   151 section .info.
+start 00008085 end 0000820a length   389 section .const
+start 00008fdb end 0000925f length   644 section .text
+start 0000925f end 00009299 length    58 section .text
+start 00009299 end 000092d3 length    58 section .text
+
+Debug\uart.o:
+start 000002dc end 000002e1 length     5 section .bss
+start 0000d991 end 0000de0e length  1149 section .debug
+start 00000781 end 00000816 length   149 section .info.
+start 000092d3 end 0000932d length    90 section .text
+start 0000932d end 0000936f length    66 section .text
+start 0000936f end 00009373 length     4 section .text
+
+Debug\tests-main.o:
+start 000002e1 end 000004f9 length   536 section .bss
+start 0000de0e end 0000e27b length  1133 section .debug
+start 00000816 end 000008b1 length   155 section .info.
+start 00009373 end 000093c5 length    82 section .text
+start 000093c5 end 00009481 length   188 section .text
+start 0000820a end 0000823f length    53 section .const
+
+Debug\atomport.o:
+start 0000e27b end 0000e6f4 length  1145 section .debug
+start 000008b1 end 0000094a length   153 section .info.
+start 00009481 end 000094a8 length    39 section .text
+start 000094a8 end 000094d6 length    46 section .text
+start 000094d6 end 000094fb length    37 section .text
+start 000094fb end 00009535 length    58 section .text
+
+Debug\atomport-asm-cosmic.o:
+start 00009535 end 00009540 length    11 section .text
+start 0000e6f4 end 0000e784 length   144 section .debug
+start 0000094a end 0000098f length    69 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)memcpy0.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000098f end 000009be length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)printf.o:
+start 00009540 end 00009550 length    16 section .text
+start 000009be end 00000a34 length   118 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)cprint.o:
+start 00009550 end 00009a7c length  1324 section .text
+start 00000a34 end 00000aaa length   118 section .info.
+start 0000823f end 00008278 length    57 section .const
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)itob.o:
+start 00009a7c end 00009b8c length   272 section .text
+start 00000aaa end 00000b1e length   116 section .info.
+start 00008278 end 0000829d length    37 section .const
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)idiv0.o:
+start 00009b8c end 00009b97 length    11 section .text
+start 00000b1e end 00000b4b length    45 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)ildiv0.o:
+start 00009b97 end 00009bb2 length    27 section .text
+start 00000b4b end 00000b79 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)strlen0.o:
+start 00009bb2 end 00009bbe length    12 section .text
+start 00000b79 end 00000ba8 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)toup0.o:
+start 00009bbe end 00009bc9 length    11 section .text
+start 00000ba8 end 00000bd5 length    45 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o:
+start 00009bc9 end 00009cb4 length   235 section .text
+start 00000bd5 end 00000c04 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)imul.o:
+start 00009cb4 end 00009cd5 length    33 section .text
+start 00000c04 end 00000c33 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)itolx.o:
+start 00009cd5 end 00009ce3 length    14 section .text
+start 00000c33 end 00000c63 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lcmp.o:
+start 00009ce3 end 00009d03 length    32 section .text
+start 00000c63 end 00000c92 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgadc.o:
+start 00009d03 end 00009d13 length    16 section .text
+start 00000c92 end 00000cc2 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgadd.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00000cc2 end 00000cf2 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgneg.o:
+start 00009d13 end 00009d26 length    19 section .text
+start 00000cf2 end 00000d22 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgsbc.o:
+start 00009d26 end 00009d3c length    22 section .text
+start 00000d22 end 00000d52 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lmul.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00000d52 end 00000d81 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lneg.o:
+start 00009d3c end 00009d51 length    21 section .text
+start 00000d81 end 00000db0 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lreg.o:
+start 00000002 end 00000006 length     4 section .ubsct
+start 00000db0 end 00000ddf length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lsub.o:
+start 00009d51 end 00009d69 length    24 section .text
+start 00000ddf end 00000e0e length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ltor.o:
+start 00009d69 end 00009d7b length    18 section .text
+start 00000e0e end 00000e3d length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ludiv.o:
+start 00009d7b end 00009d8f length    20 section .text
+start 00000e3d end 00000e6d length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lursh.o:
+start 00009d8f end 00009d9e length    15 section .text
+start 00000e6d end 00000e9d length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lzmp.o:
+start 00009d9e end 00009db1 length    19 section .text
+start 00000e9d end 00000ecc length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)rtol.o:
+start 00009db1 end 00009dc3 length    18 section .text
+start 00000ecc end 00000efb length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xreg.o:
+start 00000006 end 00000009 length     3 section .ubsct
+start 00000efb end 00000f2a length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)yreg.o:
+start 00000009 end 0000000c length     3 section .ubsct
+start 00000f2a end 00000f59 length    47 section .info.
+
+Debug\stm8_interrupt_vector.o:
+start 0000e784 end 0000e8ef length   363 section .debug
+start 00000f59 end 00000fff length   166 section .info.
+start 00009dc3 end 00009dc4 length     1 section .text
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Debug\atomkernel.o:
+L11_atomThreadSwitch             6   (6)
+L31_atomIdleThread               6   (6)
+_atomCurrentContext              2   (2)
+_atomIntEnter                    2   (2)
+_atomIntExit                    19   (2)
+_atomOSInit                     53   (10)
+_atomOSStart                    11   (4)
+_atomSched                      17   (6)
+_atomThreadCreate               43   (26)
+_atomThreadStackCheck           20   (17)
+_tcbDequeueEntry                12   (12)
+_tcbDequeueHead                  6   (6)
+_tcbDequeuePriority              7   (7)
+_tcbEnqueuePriority             11   (11)
+
+Debug\atommutex.o:
+L3_atomMutexTimerCallback       17   (5)
+_atomMutexCreate                 5   (5)
+_atomMutexDelete                26   (9)
+_atomMutexGet                   43   (26)
+_atomMutexPut                   25   (8)
+
+Debug\atomport.o:
+L3_thread_shell                162   (4) *** Recursive *** *** pointer() ***
+_archInitSystemTickTimer        10   (2)
+_archThreadContextInit          14   (14)
+f_TIM1_SystemTickISR        >  192   (16) *** Recursive ***
+
+Debug\atomtimer.o:
+L11_atomTimerDelayCallback      16   (5)
+L7_atomTimerCallbacks          174   (12) *** Recursive *** *** pointer() ***
+_atomTimerCancel                10   (10)
+_atomTimerDelay                 39   (22)
+_atomTimerRegister               8   (6)
+_atomTimerTick                 176   (2) *** Recursive ***
+
+Debug\mutex1.o:
+L31_test1_thread_func          127   (7) *** Recursive ***
+L51_test2_thread_func          127   (7) *** Recursive ***
+_test_start                    138   (18) *** Recursive ***
+
+Debug\stm8_interrupt_vector.o:
+f_NonHandledInterrupt       >    6   (6)
+
+Debug\stm8l15x_clk.o:
+_CLK_DeInit                      2   (2)
+_CLK_GetClockFreq               25   (11)
+_CLK_PeripheralClockConfig       5   (5)
+_CLK_SYSCLKDivConfig             2   (2)
+
+Debug\stm8l15x_gpio.o:
+_GPIO_DeInit                     2   (2)
+_GPIO_Init                       6   (6)
+_GPIO_ToggleBits                 5   (5)
+
+Debug\stm8l15x_tim1.o:
+_TIM1_Cmd                        2   (2)
+_TIM1_DeInit                     2   (2)
+_TIM1_ITConfig                   4   (4)
+_TIM1_TimeBaseInit               8   (8)
+
+Debug\stm8l15x_usart.o:
+_USART_Cmd                       5   (5)
+_USART_DeInit                    2   (2)
+_USART_GetFlagStatus             7   (7)
+_USART_Init                     41   (16)
+_USART_SendData8                 5   (5)
+
+Debug\tests-main.o:
+L11_main_thread_func           158   (20) *** Recursive ***
+_main                       >   56   (3)
+
+Debug\uart.o:
+_putchar                        48   (2) *** Recursive ***
+_uart_init                      49   (8)
+_uart_putchar                   51   (3) *** Recursive ***
+
+C:\Program Files (x86:
+L11__cvtup                       8   (6)
+L31__putbuf                     57   (9) *** Recursive ***
+L7__gnum                        19   (16)
+__print                        108   (51) *** Recursive ***
+__udiv                           4   (4)
+__uldiv                          6   (6)
+__itob                          19   (15)
+__ltob                          23   (17)
+_printf                        120   (12) *** Recursive ***
+_strlen                          2   (2)
+_toupper                         2   (2)
+
+Stack size: 248
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > __stext: (0)
+
+   2 > _main: (3)
+   3      + _CLK_DeInit: (2)
+   4      + _CLK_SYSCLKDivConfig: (2)
+   5      + _archInitSystemTickTimer: (2)
+   6      |    + _CLK_PeripheralClockConfig: (5)
+   7      |    + _TIM1_Cmd: (2)
+   8      |    + _TIM1_DeInit: (2)
+   9      |    + _TIM1_ITConfig: (4)
+  10      |    + _TIM1_TimeBaseInit: (8)
+          | 
+  11      + _atomOSInit: (10)
+  12      |    + _atomThreadCreate: (26)
+  13      |    |    + _archThreadContextInit: (14)
+  14      |    |    + _atomCurrentContext: (2)
+  15      |    |    + _atomSched: (6)
+  16      |    |    |    + L11_atomThreadSwitch: (6)
+  17      |    |    |    + _tcbDequeueHead: (6)
+  18      |    |    |    + _tcbDequeuePriority: (7)
+  19      |    |    |    + _tcbEnqueuePriority: (11)
+          |    |    | 
+  20      |    |    + _tcbEnqueuePriority --> 19
+          |    | 
+          | 
+  21      + _atomOSStart: (4)
+  22      |    + _tcbDequeuePriority --> 18
+          | 
+  23      + _atomThreadCreate --> 12
+       
+  24 > f_NonHandledInterrupt: (6)
+
+  25 > f_TIM1_SystemTickISR: (16)
+  26      + _atomIntEnter: (2)
+  27      + _atomIntExit: (2)
+  28      |    + _atomSched --> 15
+          | 
+  29      + _atomTimerTick: (2)
+  30      |    + L7_atomTimerCallbacks: (12)
+  31      |    |    + (L11_atomTimerDelayCallback) ...
+  32      |    |    + (L11_main_thread_func) ...
+  33      |    |    + (L31_atomIdleThread) ...
+  34      |    |    + (L31_test1_thread_func) ...
+  35      |    |    + (L3_atomMutexTimerCallback) ...
+  36      |    |    + (L3_thread_shell) ...
+  37      |    |    + (L51_test2_thread_func) ...
+          |    | 
+          | 
+       
+  38   L11__cvtup: (6)
+  39      + _toupper: (2)
+       
+  40   L11_atomThreadSwitch --> 16
+
+  41   L11_atomTimerDelayCallback: (5)
+  42      + _tcbEnqueuePriority --> 19
+       
+  43   L11_main_thread_func: (20)
+  44      + _GPIO_DeInit: (2)
+  45      + _GPIO_Init: (6)
+  46      + _GPIO_ToggleBits: (5)
+  47      + _atomThreadStackCheck: (17)
+  48      + _atomTimerDelay: (22)
+  49      |    + _atomCurrentContext --> 14
+  50      |    + _atomSched --> 15
+  51      |    + _atomTimerRegister: (6)
+          | 
+  52      + _printf: (12)
+  53      |    + __print: (51)
+  54      |    |    + L11__cvtup --> 38
+  55      |    |    + L31__putbuf: (9)
+  56      |    |    |    + _putchar: (2)
+  57      |    |    |    |    + _uart_putchar: (3)
+  58      |    |    |    |    |    + _USART_GetFlagStatus: (7)
+  59      |    |    |    |    |    + _USART_SendData8: (5)
+  60      |    |    |    |    |    + _atomMutexGet: (26)
+  61      |    |    |    |    |    |    + _atomCurrentContext --> 14
+  62      |    |    |    |    |    |    + _atomSched --> 15
+  63      |    |    |    |    |    |    + _atomTimerRegister --> 51
+  64      |    |    |    |    |    |    + _tcbDequeueEntry: (12)
+  65      |    |    |    |    |    |    + _tcbEnqueuePriority --> 19
+          |    |    |    |    |    | 
+  66      |    |    |    |    |    + _atomMutexPut: (8)
+  67      |    |    |    |    |    |    + _atomCurrentContext --> 14
+  68      |    |    |    |    |    |    + _atomSched --> 15
+  69      |    |    |    |    |    |    + _atomTimerCancel: (10)
+  70      |    |    |    |    |    |    + _tcbDequeueHead --> 17
+  71      |    |    |    |    |    |    + _tcbEnqueuePriority --> 19
+          |    |    |    |    |    | 
+  72      |    |    |    |    |    + _putchar --> 56
+          |    |    |    |    | 
+          |    |    |    | 
+          |    |    | 
+  73      |    |    + L7__gnum: (16)
+  74      |    |    + __itob: (15)
+  75      |    |    |    + __udiv: (4)
+          |    |    | 
+  76      |    |    + __ltob: (17)
+  77      |    |    |    + __uldiv: (6)
+          |    |    | 
+  78      |    |    + _strlen: (2)
+          |    | 
+          | 
+  79      + _test_start: (18)
+  80      |    + _atomMutexCreate: (5)
+  81      |    + _atomMutexDelete: (9)
+  82      |    |    + _atomCurrentContext --> 14
+  83      |    |    + _atomSched --> 15
+  84      |    |    + _atomTimerCancel --> 69
+  85      |    |    + _tcbDequeueHead --> 17
+  86      |    |    + _tcbEnqueuePriority --> 19
+          |    | 
+  87      |    + _atomMutexGet --> 60
+  88      |    + _atomThreadCreate --> 12
+  89      |    + _atomThreadStackCheck --> 47
+  90      |    + _atomTimerDelay --> 48
+  91      |    + _printf --> 52
+          | 
+  92      + _uart_init: (8)
+  93      |    + _CLK_PeripheralClockConfig --> 6
+  94      |    + _GPIO_Init --> 45
+  95      |    + _USART_Cmd: (5)
+  96      |    + _USART_DeInit: (2)
+  97      |    + _USART_Init: (16)
+  98      |    |    + _CLK_GetClockFreq: (11)
+          |    | 
+  99      |    + _atomMutexCreate --> 80
+          | 
+       
+ 100   L31__putbuf --> 55
+
+ 101   L31_atomIdleThread: (6)
+
+ 102   L31_test1_thread_func: (7)
+ 103      + _atomMutexGet --> 60
+ 104      + _atomTimerDelay --> 48
+ 105      + _printf --> 52
+       
+ 106   L3_atomMutexTimerCallback: (5)
+ 107      + _tcbDequeueEntry --> 64
+ 108      + _tcbEnqueuePriority --> 19
+       
+ 109   L3_thread_shell: (4)
+ 110      + (L11_atomTimerDelayCallback) --> 41
+ 111      + (L11_main_thread_func) --> 43
+ 112      + (L31_atomIdleThread) --> 101
+ 113      + (L31_test1_thread_func) --> 102
+ 114      + (L3_atomMutexTimerCallback) --> 106
+ 115      + (L3_thread_shell) --> 109
+ 116      + (L51_test2_thread_func) ...
+ 117      + _atomCurrentContext --> 14
+       
+ 118   L51_test2_thread_func: (7)
+ 119      + _atomMutexGet --> 60
+ 120      + _atomTimerDelay --> 48
+ 121      + _printf --> 52
+       
+ 122   L7__gnum --> 73
+
+ 123   L7_atomTimerCallbacks --> 30
+
+ 124   _CLK_DeInit --> 3
+
+ 125   _CLK_GetClockFreq --> 98
+
+ 126   _CLK_PeripheralClockConfig --> 6
+
+ 127   _CLK_SYSCLKDivConfig --> 4
+
+ 128   _GPIO_DeInit --> 44
+
+ 129   _GPIO_Init --> 45
+
+ 130   _GPIO_ToggleBits --> 46
+
+ 131   _TIM1_Cmd --> 7
+
+ 132   _TIM1_DeInit --> 8
+
+ 133   _TIM1_ITConfig --> 9
+
+ 134   _TIM1_TimeBaseInit --> 10
+
+ 135   _USART_Cmd --> 95
+
+ 136   _USART_DeInit --> 96
+
+ 137   _USART_GetFlagStatus --> 58
+
+ 138   _USART_Init --> 97
+
+ 139   _USART_SendData8 --> 59
+
+ 140   __itob --> 74
+
+ 141   __ltob --> 76
+
+ 142   __print --> 53
+
+ 143   __udiv --> 75
+
+ 144   __uldiv --> 77
+
+ 145   _archInitSystemTickTimer --> 5
+
+ 146   _archThreadContextInit --> 13
+
+ 147   _atomCurrentContext --> 14
+
+ 148   _atomIntEnter --> 26
+
+ 149   _atomIntExit --> 27
+
+ 150   _atomMutexCreate --> 80
+
+ 151   _atomMutexDelete --> 81
+
+ 152   _atomMutexGet --> 60
+
+ 153   _atomMutexPut --> 66
+
+ 154   _atomOSInit --> 11
+
+ 155   _atomOSStart --> 21
+
+ 156   _atomSched --> 15
+
+ 157   _atomThreadCreate --> 12
+
+ 158   _atomThreadStackCheck --> 47
+
+ 159   _atomTimerCancel --> 69
+
+ 160   _atomTimerDelay --> 48
+
+ 161   _atomTimerRegister --> 51
+
+ 162   _atomTimerTick --> 29
+
+ 163   _printf --> 52
+
+ 164   _putchar --> 56
+
+ 165   _strlen --> 78
+
+ 166   _tcbDequeueEntry --> 64
+
+ 167   _tcbDequeueHead --> 17
+
+ 168   _tcbDequeuePriority --> 18
+
+ 169   _tcbEnqueuePriority --> 19
+
+ 170   _test_start --> 79
+
+ 171   _toupper --> 39
+
+ 172   _uart_init --> 92
+
+ 173   _uart_putchar --> 57
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_CLK_AdjustHSICalibrationValue        ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_BEEPClockConfig                  ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_CCOConfig                        ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_ClearFlag                        ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_ClearITPendingBit                ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_ClockSecuritySystemEnable        ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_ClockSecuritySytemDeglitchCmd    ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_DeInit                           00008e64   defined in Debug\stm8l15x_clk.o section .text
+                                                 used in Debug\tests-main.o
+_CLK_GetClockFreq                     00008ea5   defined in Debug\stm8l15x_clk.o section .text
+                                                 used in Debug\stm8l15x_usart.o
+_CLK_GetFlagStatus                    ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_GetITStatus                      ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_GetSYSCLKSource                  ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_HSEConfig                        ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_HSICmd                           ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_HaltConfig                       ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_ITConfig                         ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_LSEClockSecuritySystemEnable     ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_LSEConfig                        ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_LSICmd                           ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_MainRegulatorCmd                 ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_PeripheralClockConfig            00008f2e   defined in Debug\stm8l15x_clk.o section .text
+                                                 used in Debug\uart.o
+                                                         Debug\atomport.o
+_CLK_RTCCLKSwitchOnLSEFailureEnable   ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_RTCClockConfig                   ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_SYSCLKDivConfig                  00008f2a   defined in Debug\stm8l15x_clk.o section .text
+                                                 used in Debug\tests-main.o
+_CLK_SYSCLKSourceConfig               ********   *** removed from Debug\stm8l15x_clk.o ***
+_CLK_SYSCLKSourceSwitchCmd            ********   *** removed from Debug\stm8l15x_clk.o ***
+_GPIO_DeInit                          00008ded   defined in Debug\stm8l15x_gpio.o section .text
+                                                 used in Debug\tests-main.o
+_GPIO_ExternalPullUpConfig            ********   *** removed from Debug\stm8l15x_gpio.o ***
+_GPIO_Init                            00008df5   defined in Debug\stm8l15x_gpio.o section .text
+                                                 used in Debug\uart.o
+                                                         Debug\tests-main.o
+_GPIO_ReadInputData                   ********   *** removed from Debug\stm8l15x_gpio.o ***
+_GPIO_ReadInputDataBit                ********   *** removed from Debug\stm8l15x_gpio.o ***
+_GPIO_ReadOutputData                  ********   *** removed from Debug\stm8l15x_gpio.o ***
+_GPIO_ReadOutputDataBit               ********   *** removed from Debug\stm8l15x_gpio.o ***
+_GPIO_ResetBits                       ********   *** removed from Debug\stm8l15x_gpio.o ***
+_GPIO_SetBits                         ********   *** removed from Debug\stm8l15x_gpio.o ***
+_GPIO_ToggleBits                      00008e5d   defined in Debug\stm8l15x_gpio.o section .text
+                                                 used in Debug\tests-main.o
+_GPIO_Write                           ********   *** removed from Debug\stm8l15x_gpio.o ***
+_GPIO_WriteBit                        ********   *** removed from Debug\stm8l15x_gpio.o ***
+_ITC_DeInit                           ********   *** removed from Debug\stm8l15x_itc.o ***
+_ITC_GetCPUCC                         ********   *** removed from Debug\stm8l15x_itc.o ***
+_ITC_GetSoftIntStatus                 ********   *** removed from Debug\stm8l15x_itc.o ***
+_ITC_GetSoftwarePriority              ********   *** removed from Debug\stm8l15x_itc.o ***
+_ITC_SetSoftwarePriority              ********   *** removed from Debug\stm8l15x_itc.o ***
+_SYSCFG_REMAPDMAChannelConfig         ********   *** removed from Debug\stm8l15x_syscfg.o ***
+_SYSCFG_REMAPDeInit                   ********   *** removed from Debug\stm8l15x_syscfg.o ***
+_SYSCFG_REMAPPinConfig                ********   *** removed from Debug\stm8l15x_syscfg.o ***
+_SYSCFG_RIAnalogSwitchConfig          ********   *** removed from Debug\stm8l15x_syscfg.o ***
+_SYSCFG_RIDeInit                      ********   *** removed from Debug\stm8l15x_syscfg.o ***
+_SYSCFG_RIIOSwitchConfig              ********   *** removed from Debug\stm8l15x_syscfg.o ***
+_SYSCFG_RIResistorConfig              ********   *** removed from Debug\stm8l15x_syscfg.o ***
+_SYSCFG_RITIMInputCaptureConfig       ********   *** removed from Debug\stm8l15x_syscfg.o ***
+_SYSDivFactor                         00008080   defined in Debug\stm8l15x_clk.o section .const
+_TIM1_ARRPreloadConfig                ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_BDTRConfig                      ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_CCPreloadControl                ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_CCxCmd                          ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_CCxNCmd                         ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ClearFlag                       ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ClearITPendingBit               ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ClearOC1Ref                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ClearOC2Ref                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ClearOC3Ref                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ClearOC4Ref                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_Cmd                             00008dc6   defined in Debug\stm8l15x_tim1.o section .text
+                                                 used in Debug\atomport.o
+_TIM1_CounterModeConfig               ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_CtrlPWMOutputs                  ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_DMACmd                          ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_DMAConfig                       ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_DeInit                          00008d09   defined in Debug\stm8l15x_tim1.o section .text
+                                                 used in Debug\atomport.o
+_TIM1_ETRClockMode1Config             ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ETRClockMode2Config             ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ETRConfig                       ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_EncoderInterfaceConfig          ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ForcedOC1Config                 ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ForcedOC2Config                 ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ForcedOC3Config                 ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_GenerateEvent                   ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_GetCapture1                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_GetCapture2                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_GetCapture3                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_GetCapture4                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_GetCounter                      ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_GetFlagStatus                   ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_GetITStatus                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_GetPrescaler                    ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ICInit                          ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ITConfig                        00008dd4   defined in Debug\stm8l15x_tim1.o section .text
+                                                 used in Debug\atomport.o
+_TIM1_InternalClockConfig             ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC1FastConfig                   ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC1Init                         ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC1NPolarityConfig              ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC1PolarityConfig               ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC1PreloadConfig                ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC2FastConfig                   ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC2Init                         ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC2NPolarityConfig              ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC2PolarityConfig               ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC2PreloadConfig                ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC3FastConfig                   ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC3Init                         ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC3NPolarityConfig              ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC3PolarityConfig               ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC3PreloadConfig                ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC4PreloadConfig                ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_PWMIConfig                      ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_PrescalerConfig                 ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectCCDMA                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectCOM                       ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectHallSensor                ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectInputTrigger              ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectMasterSlaveMode           ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectOCREFClear                ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectOCxM                      ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectOnePulseMode              ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectOutputTrigger             ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectSlaveMode                 ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetAutoreload                   ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetCompare1                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetCompare2                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetCompare3                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetCompare4                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetCounter                      ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetIC1Prescaler                 ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetIC2Prescaler                 ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetIC3Prescaler                 ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetIC4Prescaler                 ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_TIxExternalClockConfig          ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_TimeBaseInit                    00008da2   defined in Debug\stm8l15x_tim1.o section .text
+                                                 used in Debug\atomport.o
+_TIM1_UpdateDisableConfig             ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_UpdateRequestConfig             ********   *** removed from Debug\stm8l15x_tim1.o ***
+_USART_ClearFlag                      ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_ClearITPendingBit              ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_ClockInit                      ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_Cmd                            00008cba   defined in Debug\stm8l15x_usart.o section .text
+                                                 used in Debug\uart.o
+_USART_DMACmd                         ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_DeInit                         00008c37   defined in Debug\stm8l15x_usart.o section .text
+                                                 used in Debug\uart.o
+_USART_GetFlagStatus                  00008cda   defined in Debug\stm8l15x_usart.o section .text
+                                                 used in Debug\uart.o
+_USART_GetITStatus                    ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_HalfDuplexCmd                  ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_ITConfig                       ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_Init                           00008c47   defined in Debug\stm8l15x_usart.o section .text
+                                                 used in Debug\uart.o
+_USART_IrDACmd                        ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_IrDAConfig                     ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_ReceiveData8                   ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_ReceiveData9                   ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_ReceiverWakeUpCmd              ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_SendBreak                      ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_SendData8                      00008cd1   defined in Debug\stm8l15x_usart.o section .text
+                                                 used in Debug\uart.o
+_USART_SendData9                      ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_SetAddress                     ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_SetGuardTime                   ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_SetPrescaler                   ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_SmartCardCmd                   ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_SmartCardNACKCmd               ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_WakeUpConfig                   ********   *** removed from Debug\stm8l15x_usart.o ***
+__endmem                              000005fe   defined in command file
+                                                 *** not used ***
+__endzp                               0000000c   defined in command file section .ubsct
+                                                 used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__idesc__                             0000829d   defined in linker section .init
+                                                 used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__itob                                00009a7c   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)itob.o section .text
+                                                 used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)cprint.o
+__ltob                                00009af6   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)itob.o section .text
+                                                 used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)cprint.o
+__memory                              000004f9   defined in command file section .bss
+                                                 used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__print                               00009649   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)cprint.o section .text
+                                                 used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)printf.o
+__stack                               000007ff   defined in command file
+                                                 used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__startmem                            000004f9   defined in command file section .bss
+                                                 *** not used ***
+__stext                               000082b2   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8 section .text
+                                                 used in Debug\stm8_interrupt_vector.o
+__udiv                                00009b8c   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)idiv0.o section .text
+                                                 used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)itob.o
+__uldiv                               00009b97   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)ildiv0.o section .text
+                                                 used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)itob.o
+__vectab                              00008000   defined in Debug\stm8_interrupt_vector.o section .const
+_archContextSwitch                    00009535   defined in Debug\atomport-asm-cosmic.o section .text
+                                                 used in Debug\atomkernel.o
+_archFirstThreadRestore               0000953d   defined in Debug\atomport-asm-cosmic.o section .text
+                                                 used in Debug\atomkernel.o
+_archInitSystemTickTimer              000094d6   defined in Debug\atomport.o section .text
+                                                 used in Debug\tests-main.o
+_archThreadContextInit                000094a8   defined in Debug\atomport.o section .text
+                                                 used in Debug\atomkernel.o
+_atomCurrentContext                   00008543   defined in Debug\atomkernel.o section .text
+                                                 used in Debug\atommutex.o
+                                                         Debug\atomqueue.o
+                                                         Debug\atomsem.o
+                                                         Debug\atomtimer.o
+                                                         Debug\atomport.o
+_atomIntEnter                         0000852c   defined in Debug\atomkernel.o section .text
+                                                 used in Debug\atomport.o
+_atomIntExit                          00008536   defined in Debug\atomkernel.o section .text
+                                                 used in Debug\atomport.o
+_atomMutexCreate                      00008758   defined in Debug\atommutex.o section .text
+                                                 used in Debug\mutex1.o
+                                                         Debug\uart.o
+_atomMutexDelete                      0000877b   defined in Debug\atommutex.o section .text
+                                                 used in Debug\mutex1.o
+_atomMutexGet                         00008812   defined in Debug\atommutex.o section .text
+                                                 used in Debug\mutex1.o
+                                                         Debug\uart.o
+_atomMutexPut                         00008938   defined in Debug\atommutex.o section .text
+                                                 used in Debug\uart.o
+_atomOSInit                           0000854e   defined in Debug\atomkernel.o section .text
+                                                 used in Debug\tests-main.o
+_atomOSStart                          00008585   defined in Debug\atomkernel.o section .text
+                                                 used in Debug\tests-main.o
+_atomOSStarted                        00000102   defined in Debug\atomkernel.o section .data, initialized
+                                                 used in Debug\atomtimer.o
+_atomQueueCreate                      ********   *** removed from Debug\atomqueue.o ***
+_atomQueueDelete                      ********   *** removed from Debug\atomqueue.o ***
+_atomQueueGet                         ********   *** removed from Debug\atomqueue.o ***
+_atomQueuePut                         ********   *** removed from Debug\atomqueue.o ***
+_atomSched                            00008302   defined in Debug\atomkernel.o section .text
+                                                 used in Debug\atommutex.o
+                                                         Debug\atomqueue.o
+                                                         Debug\atomsem.o
+                                                         Debug\atomtimer.o
+_atomSemCreate                        ********   *** removed from Debug\atomsem.o ***
+_atomSemDelete                        ********   *** removed from Debug\atomsem.o ***
+_atomSemGet                           ********   *** removed from Debug\atomsem.o ***
+_atomSemPut                           ********   *** removed from Debug\atomsem.o ***
+_atomSemResetCount                    ********   *** removed from Debug\atomsem.o ***
+_atomThreadCreate                     000083b1   defined in Debug\atomkernel.o section .text
+                                                 used in Debug\mutex1.o
+                                                         Debug\tests-main.o
+_atomThreadStackCheck                 000084b3   defined in Debug\atomkernel.o section .text
+                                                 used in Debug\mutex1.o
+                                                         Debug\tests-main.o
+_atomTimeGet                          ********   *** removed from Debug\atomtimer.o ***
+_atomTimeSet                          ********   *** removed from Debug\atomtimer.o ***
+_atomTimerCancel                      00008a88   defined in Debug\atomtimer.o section .text
+                                                 used in Debug\atommutex.o
+                                                         Debug\atomqueue.o
+                                                         Debug\atomsem.o
+_atomTimerDelay                       00008afe   defined in Debug\atomtimer.o section .text
+                                                 used in Debug\mutex1.o
+                                                         Debug\tests-main.o
+_atomTimerRegister                    00008a39   defined in Debug\atomtimer.o section .text
+                                                 used in Debug\atommutex.o
+                                                         Debug\atomqueue.o
+                                                         Debug\atomsem.o
+_atomTimerTick                        00008aec   defined in Debug\atomtimer.o section .text
+                                                 used in Debug\atomport.o
+_exit                                 00008300   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8 section .text
+_main                                 00009373   defined in Debug\tests-main.o section .text
+                                                 used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+_memcpy                               ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)memcpy0.o ***
+_printf                               00009540   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)printf.o section .text
+                                                 used in Debug\mutex1.o
+                                                         Debug\tests-main.o
+_putchar                              0000936f   defined in Debug\uart.o section .text
+                                                 used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)cprint.o
+_strlen                               00009bb2   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)strlen0.o section .text
+                                                 used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)cprint.o
+_tcbDequeueEntry                      00008674   defined in Debug\atomkernel.o section .text
+                                                 used in Debug\atommutex.o
+                                                         Debug\atomqueue.o
+                                                         Debug\atomsem.o
+_tcbDequeueHead                       0000862b   defined in Debug\atomkernel.o section .text
+                                                 used in Debug\atommutex.o
+                                                         Debug\atomqueue.o
+                                                         Debug\atomsem.o
+_tcbDequeuePriority                   00008709   defined in Debug\atomkernel.o section .text
+_tcbEnqueuePriority                   000085a7   defined in Debug\atomkernel.o section .text
+                                                 used in Debug\atommutex.o
+                                                         Debug\atomqueue.o
+                                                         Debug\atomsem.o
+                                                         Debug\atomtimer.o
+_tcbReadyQ                            00000100   defined in Debug\atomkernel.o section .data, initialized
+                                                 used in Debug\atommutex.o
+                                                         Debug\atomqueue.o
+                                                         Debug\atomsem.o
+                                                         Debug\atomtimer.o
+_test_start                           00008fdb   defined in Debug\mutex1.o section .text
+                                                 used in Debug\tests-main.o
+_toupper                              00009bbe   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)toup0.o section .text
+                                                 used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)cprint.o
+_uart_init                            000092d3   defined in Debug\uart.o section .text
+                                                 used in Debug\tests-main.o
+_uart_putchar                         0000932d   defined in Debug\uart.o section .text
+c_divsl                               00009bc9   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o section .text
+                                                 *** not used ***
+c_divul                               00009be0   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o section .text
+                                                 used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)ildiv0.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ludiv.o
+c_imul                                00009cb4   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)imul.o section .text
+                                                 used in Debug\mutex1.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)cprint.o
+c_itolx                               00009cd5   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)itolx.o section .text
+                                                 used in Debug\atomkernel.o
+                                                         Debug\mutex1.o
+                                                         Debug\tests-main.o
+c_lcmp                                00009ce3   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lcmp.o section .text
+                                                 used in Debug\atomkernel.o
+                                                         Debug\atomqueue.o
+                                                         Debug\mutex1.o
+c_lgadc                               00009d03   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgadc.o section .text
+                                                 used in Debug\atomqueue.o
+                                                         Debug\atomtimer.o
+                                                         Debug\mutex1.o
+                                                         Debug\tests-main.o
+c_lgadd                               ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgadd.o ***
+c_lgneg                               00009d13   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgneg.o section .text
+                                                 used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+c_lgsbc                               00009d26   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgsbc.o section .text
+                                                 used in Debug\atomkernel.o
+                                                         Debug\atomqueue.o
+                                                         Debug\atomtimer.o
+c_lmul                                ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lmul.o ***
+c_lmulc                               ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lmul.o ***
+c_lneg                                00009d3c   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lneg.o section .text
+                                                 used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)itob.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+c_lreg                                00000002   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lreg.o section .ubsct
+                                                 used in Debug\atomqueue.o
+                                                         Debug\stm8l15x_usart.o
+                                                         Debug\stm8l15x_clk.o
+                                                         Debug\tests-main.o
+                                                         Debug\atomport.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)cprint.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)itolx.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lcmp.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgadd.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lmul.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lneg.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lsub.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ltor.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lursh.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)rtol.o
+c_lsub                                00009d51   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lsub.o section .text
+                                                 used in Debug\atomkernel.o
+c_ltor                                00009d69   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ltor.o section .text
+                                                 used in Debug\atomkernel.o
+                                                         Debug\atomqueue.o
+                                                         Debug\atomtimer.o
+                                                         Debug\stm8l15x_usart.o
+                                                         Debug\stm8l15x_clk.o
+                                                         Debug\mutex1.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)itob.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)ildiv0.o
+c_ludv                                00009d7b   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ludiv.o section .text
+                                                 used in Debug\stm8l15x_usart.o
+                                                         Debug\stm8l15x_clk.o
+c_lursh                               00009d8f   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lursh.o section .text
+                                                 used in Debug\stm8l15x_usart.o
+c_lzmp                                00009d9e   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lzmp.o section .text
+                                                 used in Debug\atomkernel.o
+                                                         Debug\atommutex.o
+                                                         Debug\atomqueue.o
+                                                         Debug\atomsem.o
+                                                         Debug\atomtimer.o
+                                                         Debug\mutex1.o
+                                                         Debug\tests-main.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)itob.o
+c_rtol                                00009db1   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)rtol.o section .text
+                                                 used in Debug\atomkernel.o
+                                                         Debug\atomqueue.o
+                                                         Debug\stm8l15x_usart.o
+                                                         Debug\stm8l15x_clk.o
+                                                         Debug\tests-main.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)cprint.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)itob.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)ildiv0.o
+c_x                                   00000006   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xreg.o section .ubsct
+                                                 used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+                                                         Debug\atomqueue.o
+                                                         Debug\atomport.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)memcpy0.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libisl0.sm8)strlen0.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)imul.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lmul.o
+c_y                                   00000009   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)yreg.o section .ubsct
+                                                 used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+                                                         Debug\atomqueue.o
+                                                         Debug\atomport.o
+f_NonHandledInterrupt                 00009dc3   defined in Debug\stm8_interrupt_vector.o section .text
+f_TIM1_SystemTickISR                  000094fb   defined in Debug\atomport.o section .text
+                                                 used in Debug\stm8_interrupt_vector.o
