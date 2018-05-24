@@ -245,7 +245,8 @@ void archInitSystemTickTimer ( void )
     TIM1_DeInit();
 
     /* Configure a 10ms tick */
-    TIM1_TimeBaseInit(10000, TIM1_CounterMode_Up, 1, 0);
+    /* system clk is 16 MHz */
+    TIM1_TimeBaseInit(5000, TIM1_CounterMode_Up, 16, 0);
 
     /* Generate an interrupt on timer count overflow */
     TIM1_ITConfig(TIM1_IT_Update, ENABLE);
