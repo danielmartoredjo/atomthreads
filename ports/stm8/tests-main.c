@@ -38,7 +38,6 @@
 #include "uart.h"
 /*#include "stm8s.h"*/
 #include "stm8l15x.h"
-#include "stm8l15x_syscfg.h"
 
 
 /* Constants */
@@ -145,13 +144,6 @@ NO_REG_SAVE void main ( void )
 
     /* setup the sysclk with no prescaler */
     CLK_SYSCLKDivConfig(CLK_SYSCLKDiv_1);
-
-    /* SYSCFG remap reset */
-    SYSCFG_REMAPDeInit();
-
-    /* SYSCFG remap USART to PA2 and PA3 */
-    SYSCFG_REMAPPinConfig(REMAP_Pin_USART1TxRxPortA, ENABLE);
-    
 
     /* Initialise the OS before creating our threads */
     status = atomOSInit(&idle_thread_stack[0], IDLE_STACK_SIZE_BYTES, TRUE);
