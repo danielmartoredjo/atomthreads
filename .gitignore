@@ -1,3 +1,8 @@
+# STVD files
+*.ls
+*.wed
+*.wdb
+
 # Prerequisites
 *.d
 
